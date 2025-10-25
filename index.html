@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Netflix Clone - Day 2</title>
+  <title>Netflix Clone - Final</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,6 +12,7 @@
       <div class="logo">NetfliXClone</div>
     </div>
     <div class="nav-right">
+      <button id="theme-toggle">🌙 Dark</button>
       <button class="signin">Sign In</button>
     </div>
   </header>
@@ -32,9 +33,7 @@
       <h2 class="row-title">Popular on NetfliXClone</h2>
       <div class="row">
         <button class="row-btn left">‹</button>
-        <div class="row-posters" data-row="0">
-          <!-- posters inserted here -->
-        </div>
+        <div class="row-posters" data-row="0"></div>
         <button class="row-btn right">›</button>
       </div>
 
@@ -48,8 +47,16 @@
   </main>
 
   <footer class="footer">
-    <p>©2025 NetfliXClone — Demo project.</p>
+    <p>© 2025 NetfliXClone — Demo project.</p>
   </footer>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close">✕</button>
+      <div id="modal-body">
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>

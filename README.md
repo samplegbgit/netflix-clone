@@ -30,3 +30,24 @@ Open `index.html` in your browser. Try clicking the row arrows or individual pos
 
 ## Next
 Day 3 will add a modal detail view, dark-mode toggle and extra UI polish.
+# Netflix Clone - Final (3 Day Build)
+
+## Overview
+This is a front-end only replica of a Netflix landing page with progressive enhancements across 3 days.
+
+### Features
+- Day 1: Base layout with fixed navbar, hero section and info cards
+- Day 2: Horizontal movie rows with smooth scrolling and poster hover effects
+- Day 3: Modal detail view for each poster, Dark/Light theme toggle (persisted in localStorage), UI polish and responsive design
+
+## How to run
+1. Clone the repository.
+2. Open `index.html` in your browser.
+3. Use row arrows or swipe (mobile) to browse posters.
+4. Click any poster to open a modal with details.
+5. Toggle theme using the top-right button.
+
+## Notes
+- All data is front-end only (placeholder images). Replace with real images if desired.
+- Keep improving: add a search bar, autoplay preview, or a small simulated login for extra polish.
+
